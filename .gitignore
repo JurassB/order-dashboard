@@ -1,0 +1,6 @@
+*.log
+thumbs.db
+
+node_modules
+dist
+.idea

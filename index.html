@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Yellow Hammock</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/styles.min.css"/>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/yhfavicon.png">
+</head>
+
+<body>
+<div class="main">
+    <div class="dashboard">
+        <div class="dashboard-wrapper">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <div class="logo"></div>
+                </div>
+                <div class="option-menu">
+                    <div class="menu-item selected" tabindex="0">
+                        <div class="menu-item-wrapper">
+                            <i class="icon material-icons">home</i>
+                            <div class="title">Dashboard</div>
+                        </div>
+                    </div>
+                    <div class="menu-item" tabindex="0" style="">
+                        <div class="menu-item-wrapper">
+                            <i class="icon material-icons">history</i>
+                            <div class="title">Order history</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+            </div>
+            <div class="content">
+                <div class="topbar">
+                    <div class="topbar-wrapper">
+                        <div class="pagetitle">Dashboard</div>
+                        <div class="divider"></div>
+                        <div class="topbar-menu">
+                            <div class="menu-item">
+                                <div class="nav-menu-wrapper">
+                                    <div class="user">
+                                        <img class="user-icon"
+                                             src="https://secure.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50">
+                                        <i class="material-icons carret">arrow_drop_down</i>
+                                    </div>
+                                </div>
+                                <div class="sub-menu">
+                                    <div class="tooltip-styling"></div>
+                                    <div class="sub-menu-item">
+                                        <i class="material-icons icon">highlight_off</i>
+                                        <div class="title">Logout</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter">
+                    <div class="filter-wrapper">
+                        <div class="filter-control-group">
+                            <div class="title">Filters:</div>
+                            <div class="button-group">
+                                <div class="filter-button btn selected">All</div>
+                                <div class="filter-button btn">Pending</div>
+                                <div class="filter-button btn">Finished</div>
+                                <div class="filter-button btn">Rejected</div>
+                            </div>
+                        </div>
+                        <div class="filter-divider"></div>
+                        <div class="filter-order-status-bar">
+                            <span class="badge">2</span>
+                            <div class="title">New order arrived</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrapper">
+                    <div class="wrapper">
+                        <div class="block pending">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#100000</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 22:00:00</div>
+                                        <div class="order-status">New Order</div>
+                                        <div class="order-price">158.29 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Cocacola buteliukas 500ml.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">9 vnt.</div>
+                                            <div class="order-title">Lazanija su mėsa</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                    </div>
+                                    <div class="action-button-group">
+                                        <div class="action-button green">Accept</div>
+                                        <div class="action-button red">Reject</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block rejected">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#1</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 22:10:00</div>
+                                        <div class="order-status">Rejected</div>
+                                        <div class="order-price">3.99 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Fanta butelis 1,5l.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block finished">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#100001</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 21:00:00</div>
+                                        <div class="order-status">Finished</div>
+                                        <div class="order-price">2708.79 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Cocacola buteliukas 500ml.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">9 vnt.</div>
+                                            <div class="order-title">Lazanija su mėsa</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block pending">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#100000</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 22:00:00</div>
+                                        <div class="order-status">New Order</div>
+                                        <div class="order-price">158.29 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Cocacola buteliukas 500ml.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">9 vnt.</div>
+                                            <div class="order-title">Lazanija su mėsa</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                    </div>
+                                    <div class="action-button-group">
+                                        <div class="action-button green">Accept</div>
+                                        <div class="action-button red">Reject</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block rejected">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#1</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 22:10:00</div>
+                                        <div class="order-status">Rejected</div>
+                                        <div class="order-price">3.99 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Fanta butelis 1,5l.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block finished">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#100001</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 21:00:00</div>
+                                        <div class="order-status">Finished</div>
+                                        <div class="order-price">2708.79 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Cocacola buteliukas 500ml.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">9 vnt.</div>
+                                            <div class="order-title">Lazanija su mėsa</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block pending">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#100000</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 22:00:00</div>
+                                        <div class="order-status">New Order</div>
+                                        <div class="order-price">158.29 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Cocacola buteliukas 500ml.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">9 vnt.</div>
+                                            <div class="order-title">Lazanija su mėsa</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                    </div>
+                                    <div class="action-button-group">
+                                        <div class="action-button green">Accept</div>
+                                        <div class="action-button red">Reject</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block rejected">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#1</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 22:10:00</div>
+                                        <div class="order-status">Rejected</div>
+                                        <div class="order-price">3.99 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Fanta butelis 1,5l.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block finished">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#100001</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 21:00:00</div>
+                                        <div class="order-status">Finished</div>
+                                        <div class="order-price">2708.79 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Cocacola buteliukas 500ml.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">9 vnt.</div>
+                                            <div class="order-title">Lazanija su mėsa</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block pending">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#100000</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 22:00:00</div>
+                                        <div class="order-status">New Order</div>
+                                        <div class="order-price">158.29 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Cocacola buteliukas 500ml.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">9 vnt.</div>
+                                            <div class="order-title">Lazanija su mėsa</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                    </div>
+                                    <div class="action-button-group">
+                                        <div class="action-button green">Accept</div>
+                                        <div class="action-button red">Reject</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block rejected">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#1</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 22:10:00</div>
+                                        <div class="order-status">Rejected</div>
+                                        <div class="order-price">3.99 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Fanta butelis 1,5l.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block finished">
+                            <div class="block-wrapper">
+                                <div class="sideheader">
+                                    <div class="sideheader-wrapper">
+                                        <div class="order-title">
+                                            <div class="badge">#100001</div>
+                                            <div class="title">Order</div>
+                                        </div>
+                                        <div class="order-date">2017-03-23 21:00:00</div>
+                                        <div class="order-status">Finished</div>
+                                        <div class="order-price">2708.79 €</div>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <div class="order-list">
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Cocacola buteliukas 500ml.</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2122 vnt.</div>
+                                            <div class="order-title">Mėsainis</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">9 vnt.</div>
+                                            <div class="order-title">Lazanija su mėsa</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                        <div class="order-list-item">
+                                            <div class="count-badge">2 vnt.</div>
+                                            <div class="order-title">Burgeris</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

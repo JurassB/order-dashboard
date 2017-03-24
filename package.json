@@ -1,0 +1,24 @@
+{
+  "name": "dashboard",
+  "version": "0.0.1",
+  "description": "Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "framework"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "cssnano": "^3.7.3",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "jit-grunt": "^0.10.0",
+    "pixrem": "^3.0.0"
+  }
+}
